@@ -7,7 +7,7 @@ import L from "leaflet";
 
 const districts = JSON.parse(rawData);
 
-// Farbskala für Bezirke
+// Color palette
 const districtColors = {
   1: "#E43F8F",
   2: "#40C463",
@@ -32,7 +32,7 @@ export default function PragueMap({ onSubmarketSelect }) {
       feature.properties.name ||
       `Bezirk ${feature.id}`;
 
-    const isSelected = selectedDistrict && selectedDistrict === name;
+    const isSelected = selectedDistrict && selectedDistrict === name.replace("Praha", "Prague").trim();
 
     return {
       color: isSelected ? "#000" : "#333",
@@ -56,13 +56,14 @@ export default function PragueMap({ onSubmarketSelect }) {
         e.target.bringToFront();
       },
       mouseout: (e) => {
-        if (selectedDistrict !== name) {
+        if (selectedDistrict !== name.replace("Praha", "Prague").trim()) {
           e.target.setStyle({ weight: 1, fillOpacity: 0.6 });
         }
       },
       click: () => {
-        setSelectedDistrict(name);
-        if (onSubmarketSelect) onSubmarketSelect(name);
+        const normalizedName = name.replace("Praha", "Prague").trim();
+        setSelectedDistrict(normalizedName);
+        if (onSubmarketSelect) onSubmarketSelect(normalizedName);
       },
     });
   };
@@ -86,7 +87,12 @@ export default function PragueMap({ onSubmarketSelect }) {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
       />
-      <GeoJSON key={selectedDistrict} data={districts} style={styleFeature} onEachFeature={onEachFeature} />
+      <GeoJSON
+        key={selectedDistrict}
+        data={districts}
+        style={styleFeature}
+        onEachFeature={onEachFeature}
+      />
     </MapContainer>
   );
 }
