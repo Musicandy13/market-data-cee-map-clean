@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "name": "Bucharest office submarkets (approximate)",
+  "disclaimer": "Approximate submarket boundaries digitized from the supplied reference image. They are illustrative and are not administrative or official CBRE boundaries.",
+  "features": [
+    {"type":"Feature","properties":{"name":"CBD","color":"#ef1717"},"geometry":{"type":"Polygon","coordinates":[[[26.081,44.428],[26.091,44.436],[26.105,44.434],[26.108,44.423],[26.100,44.417],[26.087,44.418],[26.081,44.428]]]}},
+    {"type":"Feature","properties":{"name":"Center","color":"#fff200"},"geometry":{"type":"Polygon","coordinates":[[[26.101,44.417],[26.108,44.423],[26.126,44.422],[26.140,44.415],[26.142,44.402],[26.132,44.394],[26.112,44.395],[26.099,44.404],[26.101,44.417]]]}},
+    {"type":"Feature","properties":{"name":"Dimitrie Pompeiu","color":"#ffc000"},"geometry":{"type":"Polygon","coordinates":[[[26.112,44.455],[26.127,44.457],[26.135,44.452],[26.130,44.445],[26.116,44.445],[26.110,44.450],[26.112,44.455]]]}},
+    {"type":"Feature","properties":{"name":"Floreasca / Barbu Vacarescu","color":"#9fd0dc"},"geometry":{"type":"Polygon","coordinates":[[[26.093,44.444],[26.110,44.450],[26.116,44.445],[26.130,44.445],[26.127,44.432],[26.115,44.425],[26.101,44.428],[26.094,44.435],[26.093,44.444]]]}},
+    {"type":"Feature","properties":{"name":"Center-West","color":"#0064ad"},"geometry":{"type":"Polygon","coordinates":[[[26.061,44.420],[26.081,44.428],[26.087,44.418],[26.101,44.417],[26.099,44.404],[26.088,44.397],[26.075,44.402],[26.061,44.410],[26.061,44.420]]]}},
+    {"type":"Feature","properties":{"name":"East","color":"#dedede"},"geometry":{"type":"Polygon","coordinates":[[[26.142,44.430],[26.160,44.440],[26.179,44.436],[26.186,44.421],[26.180,44.405],[26.161,44.398],[26.142,44.402],[26.142,44.430]]]}},
+    {"type":"Feature","properties":{"name":"South","color":"#c6a5c4"},"geometry":{"type":"Polygon","coordinates":[[[26.088,44.397],[26.099,44.404],[26.112,44.395],[26.132,44.394],[26.148,44.384],[26.151,44.372],[26.137,44.365],[26.112,44.368],[26.096,44.379],[26.088,44.397]]]}},
+    {"type":"Feature","properties":{"name":"West","color":"#91d047"},"geometry":{"type":"Polygon","coordinates":[[[26.027,44.430],[26.045,44.437],[26.067,44.436],[26.075,44.428],[26.061,44.420],[26.061,44.410],[26.075,44.402],[26.069,44.388],[26.052,44.383],[26.036,44.392],[26.027,44.409],[26.027,44.430]]]}},
+    {"type":"Feature","properties":{"name":"North-West","color":"#f1842c"},"geometry":{"type":"Polygon","coordinates":[[[26.061,44.462],[26.075,44.466],[26.091,44.461],[26.094,44.444],[26.082,44.439],[26.067,44.436],[26.055,44.446],[26.061,44.462]]]}},
+    {"type":"Feature","properties":{"name":"Baneasa - Otopeni","color":"#c9d7f0"},"geometry":{"type":"Polygon","coordinates":[[[26.061,44.500],[26.078,44.510],[26.096,44.505],[26.100,44.490],[26.099,44.472],[26.091,44.461],[26.075,44.466],[26.061,44.462],[26.047,44.470],[26.043,44.484],[26.061,44.500]]]}},
+    {"type":"Feature","properties":{"name":"Pipera North","color":"#f7bfd0"},"geometry":{"type":"Polygon","coordinates":[[[26.099,44.472],[26.113,44.479],[26.131,44.474],[26.141,44.462],[26.135,44.452],[26.127,44.457],[26.112,44.455],[26.110,44.450],[26.093,44.444],[26.091,44.461],[26.099,44.472]]]}}
+  ]
+}
