@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "name": "Warsaw office submarkets (approximate)",
+  "disclaimer": "Approximate submarket boundaries digitized from the supplied reference image. They are illustrative and are not administrative or official CBRE boundaries.",
+  "features": [
+    {"type":"Feature","properties":{"name":"CBD","color":"#173b73"},"geometry":{"type":"Polygon","coordinates":[[[21.000,52.236],[21.008,52.239],[21.013,52.234],[21.009,52.228],[21.001,52.230],[21.000,52.236]]]}},
+    {"type":"Feature","properties":{"name":"City Center North","color":"#618bc4"},"geometry":{"type":"Polygon","coordinates":[[[20.992,52.249],[21.005,52.252],[21.012,52.244],[21.008,52.239],[21.000,52.236],[20.991,52.240],[20.992,52.249]]]}},
+    {"type":"Feature","properties":{"name":"City Center East","color":"#79a4d5"},"geometry":{"type":"Polygon","coordinates":[[[21.013,52.234],[21.022,52.237],[21.027,52.227],[21.018,52.221],[21.010,52.224],[21.009,52.228],[21.013,52.234]]]}},
+    {"type":"Feature","properties":{"name":"City Center South","color":"#628dc8"},"geometry":{"type":"Polygon","coordinates":[[[21.000,52.230],[21.009,52.228],[21.010,52.224],[21.018,52.221],[21.015,52.213],[21.002,52.211],[20.996,52.218],[21.000,52.230]]]}},
+    {"type":"Feature","properties":{"name":"City Center West","color":"#769bd0"},"geometry":{"type":"Polygon","coordinates":[[[20.984,52.234],[20.991,52.240],[21.000,52.236],[21.001,52.230],[20.992,52.227],[20.984,52.234]]]}},
+    {"type":"Feature","properties":{"name":"Jerozolimskie Upper","color":"#a9d9d6"},"geometry":{"type":"Polygon","coordinates":[[[20.968,52.226],[20.984,52.234],[20.992,52.227],[20.987,52.220],[20.978,52.219],[20.968,52.226]]]}},
+    {"type":"Feature","properties":{"name":"Jerozolimskie Lower","color":"#b7ded8"},"geometry":{"type":"Polygon","coordinates":[[[20.950,52.213],[20.978,52.219],[20.987,52.220],[20.992,52.211],[20.977,52.199],[20.958,52.201],[20.950,52.213]]]}},
+    {"type":"Feature","properties":{"name":"Non-Sluzewiec Mokotow","color":"#ce9cad"},"geometry":{"type":"Polygon","coordinates":[[[21.002,52.211],[21.015,52.213],[21.030,52.215],[21.043,52.208],[21.049,52.197],[21.041,52.185],[21.023,52.182],[21.007,52.188],[20.996,52.198],[21.002,52.211]]]}},
+    {"type":"Feature","properties":{"name":"Sluzewiec","color":"#d9839c"},"geometry":{"type":"Polygon","coordinates":[[[21.001,52.194],[21.012,52.195],[21.017,52.187],[21.009,52.181],[20.999,52.184],[20.996,52.190],[21.001,52.194]]]}},
+    {"type":"Feature","properties":{"name":"Zwirki i Wigury Corridor","color":"#cdc5c9"},"geometry":{"type":"Polygon","coordinates":[[[20.977,52.199],[20.992,52.211],[20.996,52.198],[20.999,52.184],[20.995,52.166],[20.984,52.165],[20.977,52.181],[20.977,52.199]]]}},
+    {"type":"Feature","properties":{"name":"Pulawska Corridor","color":"#b9afb5"},"geometry":{"type":"Polygon","coordinates":[[[20.995,52.166],[20.999,52.184],[21.009,52.181],[21.017,52.172],[21.015,52.145],[21.003,52.143],[20.995,52.151],[20.995,52.166]]]}},
+    {"type":"Feature","properties":{"name":"Ursynow & Wilanow","color":"#fff0a6"},"geometry":{"type":"Polygon","coordinates":[[[21.017,52.172],[21.030,52.180],[21.041,52.185],[21.049,52.197],[21.062,52.186],[21.078,52.172],[21.081,52.153],[21.069,52.141],[21.049,52.138],[21.030,52.145],[21.015,52.145],[21.017,52.172]]]}},
+    {"type":"Feature","properties":{"name":"East","color":"#89b6b1"},"geometry":{"type":"Polygon","coordinates":[[[21.027,52.227],[21.044,52.239],[21.067,52.238],[21.087,52.228],[21.091,52.207],[21.080,52.192],[21.062,52.186],[21.049,52.197],[21.043,52.208],[21.030,52.215],[21.018,52.221],[21.027,52.227]]]}},
+    {"type":"Feature","properties":{"name":"North","color":"#c3bdac"},"geometry":{"type":"Polygon","coordinates":[[[20.950,52.275],[20.982,52.276],[20.995,52.263],[21.005,52.252],[20.992,52.249],[20.991,52.240],[20.984,52.234],[20.968,52.226],[20.948,52.231],[20.942,52.250],[20.950,52.275]]]}},
+    {"type":"Feature","properties":{"name":"West","color":"#e6e3da"},"geometry":{"type":"Polygon","coordinates":[[[20.948,52.231],[20.968,52.226],[20.978,52.219],[20.968,52.226],[20.950,52.213],[20.939,52.218],[20.940,52.228],[20.948,52.231]]]}}
+  ]
+}

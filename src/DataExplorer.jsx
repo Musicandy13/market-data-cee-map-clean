@@ -13,6 +13,7 @@ import {
 import "./App.css";
 import PragueMap from "./PragueMap";
 import BucharestMap from "./BucharestMap";
+import WarsawMap from "./WarsawMap";
 
 
 /* ===== Helpers ===== */
@@ -530,6 +531,21 @@ export default function DataExplorerApp() {
           <div style={{ marginTop: "20px", marginBottom: "20px" }}>
             <h3>📍 Select Submarket via Map</h3>
             <BucharestMap
+              onSubmarketSelect={(name) => {
+                const match = submarketsFromJson.find((s) => s.toLowerCase() === name.toLowerCase());
+                if (match) setSubmarket(match);
+              }}
+            />
+            <p style={{ fontSize: "0.8rem", color: "#666" }}>
+              Approximate submarket boundaries shown for orientation.
+            </p>
+          </div>
+        )}
+
+        {city === "Warsaw" && (
+          <div style={{ marginTop: "20px", marginBottom: "20px" }}>
+            <h3>📍 Select Submarket via Map</h3>
+            <WarsawMap
               onSubmarketSelect={(name) => {
                 const match = submarketsFromJson.find((s) => s.toLowerCase() === name.toLowerCase());
                 if (match) setSubmarket(match);
